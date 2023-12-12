@@ -37,6 +37,6 @@
   * [性能分析与优化](分享/性能分析与优化.md) 
 - Linux
   - Shell
-    * [基础](Linux/Shell/基础)
-    * [Shell命令](Linux/Shell/Shell命令)
-    * [应用命令](Linux/Shell/应用命令)
+    * [基础](Linux/Shell/基础.md)
+    * [Shell命令](Linux/Shell/Shell命令.md)
+    * [应用命令](Linux/Shell/应用命令.md)
