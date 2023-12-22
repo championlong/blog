@@ -9,6 +9,14 @@ set -euxo pipefail
 选项可以让你的脚本在出现异常时马上退出，后续命令不再执行。默认情况下Shell脚本不会因为错误而结束执行。
 
 但是，某些命令的非零返回值可能不表示失败，或者开发者希望在命令失败的情况下，脚本继续执行下去。有一种方法是使用 `command || true`，使得该命令即使执行失败，脚本也不会终止执行。
+```shell
+command
+if [ "$?"-ne 0]; then echo "command failed"; exit 1; fi
+#或者
+command || { echo "command failed"; exit 1; }
+#或者
+if ! command; then echo "command failed"; exit 1; fi
+```
 ### set -o pipefail
 默认情况下 Bash 会把最后一个子命令的返回值，作为整个命令的返回值。这个特别的选项表示在管道连接的命令中，只要有任何一个命令失败（返回值非0），则整个管道操作被视为失败。只有管道中所有命令都成功执行了这个管道才算成功执行。
 ### set -u
@@ -48,7 +56,14 @@ seq [起始值] [步进值] [结束值]生成指定序列
 for shard in $(seq 0 10); do
 done
 ```
-
+## wait 命令
+等待所有子进程完成。注意，如果在wait后使用`$?`获取的则是wait的执行结果。
+```shell
+for shard in $(seq 0 6); do
+ command &
+done
+wait
+```
 # 常用
 ```shell
 # $0 表示脚本本身的名称，dirname 函数获取其所在的目录
