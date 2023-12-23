@@ -22,12 +22,19 @@
   * [配置](Kafka/基础/配置.md)
   * [生产者](Kafka/基础/生产者.md)
   * [消费者](Kafka/基础/消费者.md)
+- Redis
+  * [基础](Redis/基础.md) 
 - Go
   * [并发](Go/基础/并发.md)
   * [管道](Go/基础/管道.md)
   * [同步](Go/基础/同步.md)
   * [网络](Go/基础/网络.md)
   * [笔记](Go/基础/学习笔记.md)
+- Linux
+  - Shell
+    * [基础](Linux/Shell/基础.md)
+    * [Shell命令](Linux/Shell/Shell命令.md)
+    * [应用命令](Linux/Shell/应用命令.md)
 - 分享
   * [轻量级协程池实现](分享/轻量级协程池实现.md) 
   * [区块链技术简述](分享/区块链技术简述.md) 
@@ -35,8 +42,3 @@
   * [CodeReview中的问题](分享/CodeReview中的问题.md) 
   * [Map引发的问题](分享/Map引发的问题.md) 
   * [性能分析与优化](分享/性能分析与优化.md) 
-- Linux
-  - Shell
-    * [基础](Linux/Shell/基础.md)
-    * [Shell命令](Linux/Shell/Shell命令.md)
-    * [应用命令](Linux/Shell/应用命令.md)
