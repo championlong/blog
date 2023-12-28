@@ -24,6 +24,8 @@
   * [消费者](Kafka/基础/消费者.md)
 - Redis
   * [基础](Redis/基础.md) 
+  * [进阶](Redis/进阶.md) 
+  * [缓存处理](Redis/缓存处理.md) 
 - Go
   * [并发](Go/基础/并发.md)
   * [管道](Go/基础/管道.md)
