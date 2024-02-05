@@ -32,6 +32,8 @@
   * [同步](Go/基础/同步.md)
   * [网络](Go/基础/网络.md)
   * [笔记](Go/基础/学习笔记.md)
+- Python
+  * [基础](Python/基础.md)
 - Linux
   - Shell
     * [基础](Linux/Shell/基础.md)
