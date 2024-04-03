@@ -47,3 +47,5 @@
   * [Map引发的问题](分享/Map引发的问题.md) 
   * [性能分析与优化](分享/性能分析与优化.md) 
   * [开发规范](分享/开发规范.md) 
+  * [Hbase入门](分享/Hbase入门.md) 
+  * [Prometheus入门](分享/Prometheus入门.md) 
