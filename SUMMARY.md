@@ -34,6 +34,7 @@
   * [笔记](Go/基础/学习笔记.md)
 - Python
   * [基础](Python/基础.md)
+  * [对象](Python/对象.md)
 - Linux
   - Shell
     * [基础](Linux/Shell/基础.md)
