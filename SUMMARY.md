@@ -17,6 +17,10 @@
     * [核心增长](业务/增长/核心增长.md)
     * [C端增长](业务/增长/C端增长.md)
     * [B端增长](业务/增长/B端增长.md)
+- AI
+  - Agent
+    * [Agent的开发与应用](AI/Agent的开发与应用.md)
+    * [Agentic RL](AI/AgenticRL.md)
 - Kafka
   * [概念](Kafka/基础/概念.md)
   * [配置](Kafka/基础/配置.md)
